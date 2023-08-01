@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,700&display=swap');
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+
+}
+
+
+
+/* nav */
+
+
+nav{
+    font-size: 12px;
+    /* padding: 14px; */
+    /* height: 66px; */
+}
+
+/* .myntr-logo{
+    height: 100px;
+    width: 50px;
+} */
+header{
+    position: sticky;
+    top: 0;
+    /* display: flex; */
+    background-color: white;
+    height: 66px;
+    box-sizing: border-box;
+    box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+    
+
+}
+header *{
+     box-sizing: border-box;
+}
+
+
+.myntr-logo{
+  margin-bottom: 30px;  
+}
+
+
+.left img{
+    width: 32px;
+    height: 23px;
+}
+.container{
+  padding: 0;
+   margin: 5px 0px;
+/* margin-bottom: 0px; */
+height: 66px;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li{
+list-style: none;
+padding: 0 8px;
+margin-bottom: 30px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    /* margin-left: 0x; */
+    /* margin-bottom: 25px;
+    padding-bottom: 25px; */
+}
+
+
+.nav-seach{
+    display: flex;
+    /* flex: 1; */
+    justify-content: space-evenly;
+    background-color: rgb(249, 243, 245);
+    max-width: 500px;
+    height: 40px;
+    border-radius: 4px;
+    /* border: solid gray 2px; */
+    margin-bottom: auto;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.search-icon{
+    /* margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px; */
+    margin: 0 10px;
+}
+.search-input{
+    /* width: 100%; */
+    flex: 1;
+    background-color: rgb(249, 243, 245);
+    border-radius: 4px;
+    border: none;
+    font-size: medium;
+    padding: 6px 10px;
+   
+}
+
+ 
+    
+
+.left-box{
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ 
+ .left{
+    display: flex;
+    align-items: center;
+    /* margin-right: 25px; */
+    margin-left: 0px;
+    /* margin-bottom: 40px;
+    padding-bottom: 40px;
+     */
+ }
+ .left li{
+    list-style-type: none;
+    /* margin-right: 10px; */
+    font-size: 14px;
+   
+
+ }
+ .left li i{
+    display: inline-block;
+    /* margin-right: 5px; */
+    margin-bottom: 0px;
+
+    
+ }
+ @media screen and (max-width: 768px) {
+    .nav-seach {
+        max-width: 300px; /* Reduce the maximum width of the search input on smaller screens */
+    }
+
+    .search-input {
+        font-size: small; /* Adjust the font size for the search input on smaller screens */
+    }
+
+    .left li {
+        font-size: 12px; /* Adjust the font size for list items on smaller screens */
+    }
+}
+
+
+/* section */
+.section1{
+    background-color: #f7f6f6;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.section2{
+    background-color: #f7f6f6;
+    margin-top: 40px;
+    
+    
+
+}
+
+
+.h2section2{
+    color: black;
+    /* display: flex; */
+    font-size: 25px; 
+    font-weight: bolder;
+    align-items:center;
+    margin-left: 50px;
+    margin-top: 0;
+    
+    
+}
+.box1{
+    height: 400px;
+    width: 100%;
+    margin-top:  50px ;
+    margin-left: 0px;
+}
+.box2{
+    height: 200px;
+    width: 100%;
+    margin: 20px ;
+    margin-left: 0px;
+    
+}
+.box3{
+    height: 300px;
+    width: 100%;
+    margin: 20px ;
+    margin-left: 0px;
+}
+
+.box4{
+    height: 200px;
+    width: 100%;
+    margin: 20px ;
+    margin-left: 0px;
+}
+
+.box5{
+    height: 500px;
+    width: 100%;
+    margin: 20px ;
+    margin-left: 0px;
+}
+
+.box6{
+    height: 300px;
+    width: 100%;
+    margin: 20px ;
+    margin-left: 0px;
+}
+
+.box7{
+    height: 300px;
+    width: 100%;
+    margin: 20px ;
+    margin-left: 0px;
+}
+footer{
+    padding: 23px;
+    color: gray;
+    text-align: center;
+    box-shadow:rgba(206, 203, 203, 0.24) 0px 0px 3px 8px ;
+
+}
+.footer_ontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_ontainer li{
+    list-style: none;
+}
